@@ -1,0 +1,12 @@
+numpy==1.18.5
+matplotlib
+opencv-python
+DateTime
+sklearn
+scikit-learn
+pandas
+seaborn
+tensorflow
+Werkzeug==0.16.0
+Flask-WTF
+WTForms

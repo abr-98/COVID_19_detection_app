@@ -1,0 +1,87 @@
+<html>  
+<head>  
+<title>Form</title>  
+</head>  
+<body>  
+<p>Enter 'Yes or Y' for Yes and 'No or N' for NO</p> 
+<p>Enter 'M' for Male or 'F' for Female</p>  
+</body> 
+<form action="/getinfo" method="POST", enctype="multipart/form-data">
+
+        
+         <label>Name</label>
+         <input type="text" id="name" name="name" placeholder=" Enter name">
+         <br>
+         <label>Age</label>
+         <input type="text" id="age" name="age" placeholder="Enter the age">
+         <br>
+         <label>Gender</label>
+         <input type="text" id="gender" name="gender" placeholder="Enter the gender">
+         <br>
+         <label>Pneumonia</label>
+         <input type="text" id="has_pneumonia" name="has_pneumonia" placeholder="Yes for Pneumonia">
+         <br>
+         <label>Stiffness</label>
+         <input type="text" id="has_stiff" name="has_stiff" placeholder="Yes for Stiffness">
+         <br>
+         <label>Effusion</label>
+         <input type="text" id="has_effusion" name="has_effusion" placeholder="Yes for Effusion">
+         <br>
+         <label>Tiredness</label>
+         <input type="text" id="has_tired" name="has_tired" placeholder="Yes for Tiredness">
+         <br>
+         <label>Thrist</label>
+         <input type="text" id="has_thirst" name="has_thirst" placeholder="Yes for Thrist">
+         <br>
+         <label>Appetite</label>
+         <input type="text" id="has_appetite" name="has_appetite" placeholder="Yes for Appetite">
+         <br>
+         <label>Pleural</label>
+         <input type="text" id="has_pleural" name="has_pleural" placeholder="Yes for Pleural">
+         <br>
+         <label>Symptoms</label>
+         <input type="text" id="has_symptom" name="has_symptom" placeholder="Yes for Symptoms like loss of smell and taste">
+         <br>
+         <label>Weakness</label>
+         <input type="text" id="has_weak" name="has_weak" placeholder="Yes for Weakness">
+         <br>
+         <label>Discomfort</label>
+         <input type="text" id="has_discomfort" name="has_discomfort" placeholder="Yes for Discomfort">
+         <br>
+         <label>Cough</label>
+         <input type="text" id="has_cough" name="has_cough" placeholder="Yes for Cough">
+         <br>
+         <label>Ache</label>
+         <input type="text" id="has_ache" name="has_ache" placeholder="Yes for Ache">
+         <br>
+         <label>Rigor</label>
+         <input type="text" id="has_rigor" name="has_rigor" placeholder="Yes for Rigor">
+         <br>
+         <label>Cold</label>
+         <input type="text" id="has_cold" name="has_cold" placeholder="Yes for Cold">
+         <br>
+         <label>Sore Throat</label>
+         <input type="text" id="has_sore" name="has_sore" placeholder="Yes for Sore Throat">
+         <br>
+         <label>Pain in throat/ Inflated throat</label>
+         <input type="text" id="has_pharyn" name="has_pharyn" placeholder="Yes for Inflated throat">
+         <br>
+         <label>Runny Nose</label>
+         <input type="text" id="has_runny" name="has_runny" placeholder="Yes for Runny Nose">
+         <br>
+         <label>Respiratory Problem</label>
+         <input type="text" id="has_respiratory" name="has_respiratory" placeholder="Yes for Respiratory Problem">
+         <br>
+         <label>Viral Fever</label>
+         <input type="text" id="has_viral" name="has_viral" placeholder="Yes for Viral Fever">
+         <br>
+         <dl>
+         <p>
+		<input type="file" name="file" autocomplete="off" required>
+		</p>
+   	 	</dl>
+
+        <button type="submit">Submit</button>
+
+      </form> 
+</html>  
