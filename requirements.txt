@@ -1,12 +1,13 @@
 numpy==1.18.5
 matplotlib
-opencv-python
+opencv-python-headless
 DateTime
 sklearn
 scikit-learn
 pandas
 seaborn
 tensorflow
-Werkzeug==0.16.0
+Werkzeug==0.14.1
 Flask-WTF
 WTForms
+xgboost
