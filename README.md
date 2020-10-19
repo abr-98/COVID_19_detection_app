@@ -16,3 +16,22 @@ The final result is obtained by averaging the prediction of both the models.
 
 Finally, Flask and Docker have been used to host the model. 
 
+**Requirements**
+numpy==1.18.5
+matplotlib
+opencv-python-headless
+DateTime
+sklearn
+scikit-learn
+pandas
+seaborn
+tensorflow
+Werkzeug==0.14.1
+Flask-WTF
+WTForms
+xgboost
+
+
+
+
+
