@@ -44,6 +44,6 @@ WTForms
 xgboost
 
 
-
+VISIT for details : https://medium.com/@myac.abhijit/an-approach-towards-building-a-covid-19-detection-application-5c6169370f2a 
 
 
